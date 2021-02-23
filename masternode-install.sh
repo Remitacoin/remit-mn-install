@@ -180,7 +180,7 @@ function get_ip() {
       do
         echo ${INDEX} $ip
         let INDEX=${INDEX}+1
-      donemasternode-install.sh
+      done
       read -e choose_ip
       NODEIP=${NODE_IPS[$choose_ip]}
   else
